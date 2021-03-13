@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya Telivigala&display=swap');
+body {
+    font-family: 'Akaya Telivigala', cursive;
+    overflow: hidden;
+}
+
+.over-lay {
+    background-color: rgba(0, 0, 0, 0.40);
+}
+
+#home {
+    background-image: url(../img/WBC_7095.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+}
+
+.recipe-img {
+    height: 260px;
+}
+
+.navbar {
+    background-color: #1B1B1B;
+}
+
+#loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(245, 245, 245, 0.975);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999;
+}
+
+#to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    z-index: 3333;
+}
+
+a {
+    color: white !important;
+    text-decoration: none !important;
+}
