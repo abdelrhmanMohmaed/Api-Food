@@ -14,9 +14,11 @@ body {
     background-position: center center;
     background-size: cover;
 }
-.w-35{
-    width: 35%;
+
+.w-35 {
+    width: 28%;
 }
+
 .recipe-img {
     height: 260px;
 }
@@ -49,4 +51,15 @@ body {
 a {
     color: white !important;
     text-decoration: none !important;
+}
+
+@media screen and (max-width:500px) {
+    .w-35 img {
+        width: 100% !important;
+    }
+}
+@media screen and (max-width:500px) {
+    .w-35{
+        width: 30% !important;
+    }
 }
